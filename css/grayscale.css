@@ -209,6 +209,9 @@ a:focus {
 .large-icon {
     font-size: 100px;
 }
+.small-icon {
+    font-size: 20px;
+}
 @media(min-width:768px) {
     .intro {
         height: 100%;
@@ -311,7 +314,7 @@ a:focus {
     width: 100%;
     padding: 250px 0;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat center center scroll;
+    background: url(../img/circuit1.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -331,7 +334,7 @@ a:focus {
 }
 .contact-section {
     width: 100%;
-    padding: 50px 0;
+
     color: #fff;
     background: url(../img/2H.jpg) no-repeat center center scroll;
     background-color: #000;
@@ -371,12 +374,18 @@ a:focus {
               padding: 100px 0;
     }
     .resourcing-section {
-        padding: 100px 0;
+        padding: 150px 0;
 
+    }
+    .contact-section {
+        padding: 100px 0;
+    }
+    .intro-body {
+        padding: 0px 0;
     }
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 50px;
     }
 }
 
